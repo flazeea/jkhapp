@@ -41,7 +41,7 @@
 
       <!-- Поддержка -->
       <div class="text-center text-sm rb-light text-[#9CA3AF] mb-10">
-        Нет вашего адреса? Обратитесь в поддержку
+        Нет вашего адреса? <span class="text-[#6B89E1]">Обратитесь в поддержку</span>
       </div>
     </main>
   </div>

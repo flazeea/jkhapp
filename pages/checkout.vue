@@ -1,9 +1,11 @@
 <template>
-  <div class="bg-white w-full min-h-screen flex flex-col">
-    <ProfileHeader />
+  <div class="bg-white w-full min-h-screen flex flex-col pt-30">
 
     <main class="flex-1 px-4 pt-6 pb-4 flex flex-col" :class="{ 'blur-sm': showPaymentModal }">
       <!-- Шаги -->
+      <div class="text-right pb-5 text-sm text-[#6B89E1] rb-light">
+          Квитанция
+        </div>
       <div class="flex justify-center gap-6 mb-6">
         <div class="flex items-center gap-2">
           <div class="h-9 w-9 rounded-full bg-[#6B89E1] flex items-center justify-center">
@@ -96,7 +98,7 @@
           type="button"
           class="w-full h-14 rounded-2xl bg-[#6B89E1] text-white text-lg tracking-wide rb-medium disabled:bg-[#C2C7F0] disabled:cursor-not-allowed"
           :disabled="inputAmount === '0'"
-          @click="handlePayment"
+          @click="goToPay"
         >
           К ОПЛАТЕ
         </button>
@@ -199,6 +201,9 @@ const handlePayment = () => {
 
 const closePaymentModal = () => {
   showPaymentModal.value = false;
+};
+const goToPay = () => {
+  router.push({ path: '/quick-topup-pay', query: { amount: inputAmount.value } });
 };
 
 const openDocuments = () => {
