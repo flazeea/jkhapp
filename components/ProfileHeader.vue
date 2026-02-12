@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  </head>
   <NuxtLink to="/profile" class="profile p-4 flex items-center cursor-pointer hover:bg-gray-50 transition-colors">
     <div class="bg-[#D9D9D9] h-11 w-11 rounded-full flex-shrink-0"></div>
     
