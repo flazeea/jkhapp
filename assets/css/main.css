@@ -6,6 +6,10 @@ body {
     color: #3A3A3A;
 }
 
+:root {
+    color-scheme: light;
+}
+
 .rb-semibold {
     font-family: "Rubik", sans-serif;
     font-weight: 600;
