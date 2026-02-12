@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white w-full min-h-screen flex flex-col pt-30">
+  <div class="bg-white w-full min-h-screen flex flex-col">
 
     <main class="flex-1 px-4 pt-6 pb-4 flex flex-col" :class="{ 'blur-sm': showPaymentModal }">
       <!-- Шаги -->

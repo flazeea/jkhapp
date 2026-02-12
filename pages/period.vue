@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white w-full min-h-screen flex flex-col">
 
-    <main class="flex-1 px-4 pt-6 pb-4 flex flex-col pt-30">
+    <main class="flex-1 px-4 pt-6 pb-4 flex flex-col">
       <!-- Шаги -->
       <div class="flex justify-center gap-6 mb-6">
         <div class="flex items-center gap-2">
