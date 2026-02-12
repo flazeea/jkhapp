@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white w-full min-h-screen flex flex-col">
     <!-- Header with back button -->
-    <div class="flex items-center pt-30 pl-4">
+    <div class="flex items-center pl-4">
       <NuxtLink to="/" class="text-gray-400">
         <Icon name="mingcute:left-line" size="24" class="text-[#6B89E1]" />
       </NuxtLink>
