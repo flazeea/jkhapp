@@ -1,7 +1,8 @@
 <template>
-  <div class="bg-white w-full min-h-screen flex flex-col">
+  <div class="bg-white w-full max-h-screen flex flex-col">
+    <div class="flex-1 flex flex-col w-full max-md:scale-[0.87] max-md:origin-top transition-transform duration-300">
     <!-- Header with back button -->
-    <div class="flex items-center pl-4">
+    <div class="flex items-center px- pt-4">
       <NuxtLink to="/" class="text-gray-400">
         <Icon name="mingcute:left-line" size="24" class="text-[#6B89E1]" />
       </NuxtLink>
@@ -102,9 +103,10 @@
     </div>
 
     <!-- Footer -->
-    <div class="flex-1"></div>
+    <div class=""></div>
     <div class="flex gap-2 p-4 text-center text-gray-400 text-xs mb-1 justify-center">
       <img src="/scid.png" class="w-11 h-5" alt=""> version 0.7.8
+    </div>
     </div>
   </div>
 </template>

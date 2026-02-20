@@ -17,7 +17,7 @@
 
         <div 
           :class="[
-            'text-base transition-colors duration-300',
+            'text-base max-md:text-[13px] transition-colors duration-300',
             activeItem === item.name ? 'rb-bold text-[#3E3E3E]' : 'rb-regular text-black'
           ]"
         >

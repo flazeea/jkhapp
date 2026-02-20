@@ -1,5 +1,6 @@
 <template>
   <div class="bg-white w-full min-h-screen flex flex-col">
+    <div class="flex-1 flex flex-col w-full max-md:scale-[0.95] max-md:origin-top transition-transform duration-300">
     <!-- Header with back button -->
     <div class="flex items-center p-4">
       <NuxtLink to="/profile" class="text-gray-400">
@@ -45,6 +46,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>

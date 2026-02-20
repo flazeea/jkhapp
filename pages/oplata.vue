@@ -1,7 +1,8 @@
 <template>
   <div class="bg-white w-full min-h-screen flex flex-col">
+    <div class="flex-1 flex flex-col w-full max-md:scale-[0.95] max-md:origin-top transition-transform duration-300">
 
-    <main class="flex-1 px-4 pt-6 pb-4 flex flex-col pt-30">
+    <main class="flex-1 px-4 pt-6 pb-4 flex flex-col">
       <!-- Шаги -->
       <div class="flex justify-center gap-6 mb-6">
         <div class="flex items-center gap-2">
@@ -53,6 +54,7 @@
       </div>
     </main>
 
+    </div>
     <AppFooter />
   </div>
 </template>

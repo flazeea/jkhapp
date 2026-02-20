@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-white w-full min-h-screen flex flex-col">
+  <div class="bg-white w-full max-h-screen flex flex-col">
+    <div class="flex-1 flex flex-col w-full max-md:scale-[0.95] max-md:origin-top transition-transform duration-300">
     <!-- Header with back button -->
     <div class="flex items-center p-4">
       <NuxtLink to="/profile/phone" class="text-gray-400">
@@ -39,6 +40,7 @@
       <button :disabled="!isCodeFilled" :class="{'opacity-50 cursor-not-allowed': !isCodeFilled}" class="w-full bg-[#6B89E1] text-white py-3 rounded-2xl rb-medium disabled:opacity-50">
         ПРОДОЛЖИТЬ
       </button>
+    </div>
     </div>
   </div>
 </template>

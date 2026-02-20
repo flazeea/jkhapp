@@ -1,5 +1,6 @@
 <template>
   <div class="bg-white w-full min-h-screen flex flex-col">
+    <div class="flex-1 flex flex-col w-full max-md:scale-[0.95] max-md:origin-top transition-transform duration-300">
     <ProfileHeader />
     <div class="flex flex-col gap-4 p-4 rb-medium" style="font-size: 14px;">
       <div
@@ -27,6 +28,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
     <AppFooter />
   </div>

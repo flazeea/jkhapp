@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-white w-full min-h-screen flex flex-col">
+  <div class="bg-white w-full max-h-screen flex flex-col">
+    <div class="flex-1 flex flex-col w-full max-md:scale-[0.87] max-md:origin-top transition-transform duration-300">
     <!-- Header with back button -->
     <div class="flex items-center p-4">
       <NuxtLink to="/profile" class="text-gray-400">
@@ -14,7 +15,7 @@
       </h1>
 
       <!-- Колесо выбора адреса -->
-      <div class="flex-1 flex flex-col max-h-[500px] mb-6">
+      <div class="flex-1 flex flex-col max-h-[450px] mb-6">
         <div class="picker-wrapper">
           <div class="picker-fade-top"></div>
           <div class="picker-fade-bottom"></div>
@@ -44,6 +45,7 @@
         Нет вашего адреса? <span class="text-[#6B89E1]">Обратитесь в поддержку</span>
       </div>
     </main>
+    </div>
   </div>
 </template>
 
